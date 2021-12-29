@@ -186,9 +186,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="RemoteUpdateNet_TemporaryKey.pfx" />
-    <None Include="RemoteUpdate_3_TemporaryKey.pfx" />
-    <None Include="RemoteUpdate_TemporaryKey.pfx" />
+    <None Include="RemoteUpdate_Key.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Pictures\RemoteUpdate.png" />
