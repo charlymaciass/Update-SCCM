@@ -48,7 +48,9 @@ namespace RemoteUpdate
                 }
                 return clearText;
             }
+#pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception ee)
+#pragma warning restore CA1031 // Do not catch general exception types
             {
                 WriteLogFile(2, "Encrypt error for server " + strServername.ToUpper(Global.cultures) + ": " + ee.Message);
                 return "";
@@ -85,7 +87,9 @@ namespace RemoteUpdate
                 }
                 return cipherText;
             }
+#pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception ee)
+#pragma warning restore CA1031 // Do not catch general exception types
             {
                 WriteLogFile(2, "Decrypt error for server " + strServername.ToUpper(Global.cultures) + ": " + ee.Message);
                 return "";
@@ -484,8 +488,10 @@ namespace RemoteUpdate
             string strTmpUsername = Global.TableRuntime.Rows[line]["Username"].ToString();
             string strTmpPassword = Global.TableRuntime.Rows[line]["Password"].ToString();
             string strTmpCredentials = "";
-            ProcessStartInfo startInfo = new ProcessStartInfo(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe");
-            startInfo.UseShellExecute = false;
+            ProcessStartInfo startInfo = new ProcessStartInfo(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe")
+            {
+                UseShellExecute = false
+            };
             startInfo.EnvironmentVariables.Add("RedirectStandardOutput", "true");
             startInfo.EnvironmentVariables.Add("RedirectStandardError", "true");
             startInfo.EnvironmentVariables.Add("UseShellExecute", "false");
@@ -529,8 +535,10 @@ namespace RemoteUpdate
             string strTmpPassword = Global.TableRuntime.Rows[line]["Password"].ToString();
             string strTmpCredentials = "";
             string strTmpVirtualAccount = Global.TableSettings.Rows[0]["PSVirtualAccountName"].ToString();
-            ProcessStartInfo startInfo = new ProcessStartInfo(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe");
-            startInfo.UseShellExecute = false;
+            ProcessStartInfo startInfo = new ProcessStartInfo(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe")
+            {
+                UseShellExecute = false
+            };
             startInfo.EnvironmentVariables.Add("RedirectStandardOutput", "true");
             startInfo.EnvironmentVariables.Add("RedirectStandardError", "true");
             startInfo.EnvironmentVariables.Add("UseShellExecute", "false");
@@ -730,7 +738,9 @@ return 'OK'
                 WriteLogFile(0, "Returned IP " + hostEntry.AddressList.FirstOrDefault().ToString() + " for " + Servername.ToUpper(Global.cultures), true);
                 return hostEntry.AddressList.FirstOrDefault().ToString();
             }
+#pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception ee)
+#pragma warning restore CA1031 // Do not catch general exception types
             {
                 WriteLogFile(1, "Could not get IP for Servername: " + Servername + ": " + ee.Message);
                 return "";
@@ -746,8 +756,12 @@ return 'OK'
             {
                 try
                 {
+#pragma warning disable CA3075 // Insecure DTD processing in XML
                     loadTable.ReadXmlSchema(xmlFilename);
-                    loadTable.ReadXml(xmlFilename);
+#pragma warning restore CA3075 // Insecure DTD processing in XML
+#pragma warning disable CA3075 // Insecure DTD processing in XML
+                    _ = loadTable.ReadXml(xmlFilename);
+#pragma warning restore CA3075 // Insecure DTD processing in XML
                     WriteLogFile(0, xmlFilename + " successfully loaded");
                     return true;
                 }
@@ -885,7 +899,9 @@ return 'OK'
                     return false;
                 }
             }
+#pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception ee)
+#pragma warning restore CA1031 // Do not catch general exception types
             {
                 strMessage = "An error occured while retrieving the WinRM TrustedHosts list. ";
                 WriteLogFile(2, strMessage + ee.Message, true);
@@ -982,7 +998,9 @@ return 'OK'
                 }
                 WriteLogFile(0, "UAC Elevation successfull");
             }
+#pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception ee)
+#pragma warning restore CA1031 // Do not catch general exception types
             {
                 WriteLogFile(2, "UAC Elevation error: " + ee.Message);
             }
@@ -1040,12 +1058,11 @@ return 'OK'
             string newUrl = url;
             do
             {
-                HttpWebRequest req = null;
                 HttpWebResponse resp = null;
                 try
                 {
                     Uri uurl = new Uri(url);
-                    req = (HttpWebRequest)WebRequest.Create(new Uri(url));
+                    HttpWebRequest req = (HttpWebRequest)WebRequest.Create(new Uri(url));
                     req.Method = "HEAD";
                     req.AllowAutoRedirect = false;
                     resp = (HttpWebResponse)req.GetResponse();
@@ -1078,7 +1095,9 @@ return 'OK'
                     // Return the last known good URL
                     return newUrl;
                 }
-                catch (Exception ee)
+#pragma warning disable CA1031 // Do not catch general exception types
+                catch (Exception)
+#pragma warning restore CA1031 // Do not catch general exception types
                 {
                     return null;
                 }
@@ -1114,7 +1133,9 @@ return 'OK'
                     Global.bNewVersionOnline = false;
                 }
             }
+#pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception ee)
+#pragma warning restore CA1031 // Do not catch general exception types
             {
                 Tasks.WriteLogFile(2, "An error occured while searching for a new version: " + ee.Message);
                 Global.bNewVersionOnline = false;
@@ -1159,7 +1180,9 @@ return 'OK'
                     p.Start();
                 }
             }
+#pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception ee)
+#pragma warning restore CA1031 // Do not catch general exception types
             {
                 WriteLogFile(2, "An error occured while the self updating process: " + ee.Message);
             }

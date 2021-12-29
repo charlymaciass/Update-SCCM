@@ -490,8 +490,10 @@ namespace RemoteUpdate
         {
             int iLabelID = Int32.Parse((sender as Button).Name.Split('_')[1], Global.cultures);
             string tmpServer = Global.TableRuntime.Rows[iLabelID]["Servername"].ToString().ToUpper(Global.cultures);
-            Credentials AskCred = new Credentials(iLabelID);
-            AskCred.Title = tmpServer + " Credentials";
+            Credentials AskCred = new Credentials(iLabelID)
+            {
+                Title = tmpServer + " Credentials"
+            };
             AskCred.ShowDialog();
         }
         private bool GetPassword(bool bEncrypt, out string strCryptPassword)
@@ -516,8 +518,7 @@ namespace RemoteUpdate
             }
             else
             {
-                string strFailureMessage;
-                if (Tasks.CreatePSConnectionPrerequisites(line, out strFailureMessage))
+                if (Tasks.CreatePSConnectionPrerequisites(line, out string strFailureMessage))
                 {
                     Tasks.OpenPowerShellUpdate(line, GridMainWindow);
                 }
@@ -537,8 +538,7 @@ namespace RemoteUpdate
             }
             else
             {
-                string strFailureMessage;
-                if (Tasks.CreatePSConnectionPrerequisites(line, out strFailureMessage))
+                if (Tasks.CreatePSConnectionPrerequisites(line, out string strFailureMessage))
                 {
                     Tasks.AskPendingStatus(line, GridMainWindow);
                 }
@@ -757,8 +757,10 @@ namespace RemoteUpdate
         private void RemoteUpdate_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             // Check if actual table is different than original file
+#pragma warning disable CA2000 // Dispose objects before losing scope
             System.Data.DataTable LoadTable = new System.Data.DataTable();
-            // Load Data from XML RemoteUpdateServer.xml
+#pragma warning restore CA2000 // Dispose objects before losing scope
+                              // Load Data from XML RemoteUpdateServer.xml
             bool bReadXML = Tasks.ReadXMLToTable(AppDomain.CurrentDomain.BaseDirectory + "RemoteUpdateServer.xml", LoadTable);
             // Check if XML read is true and if the rowscount is greater than 0 otherwise exit RemoteUpdate
             if (bReadXML == true && LoadTable.Rows.Count > 0)
@@ -834,7 +836,10 @@ namespace RemoteUpdate
                 // If Result is different ask if you want to save
                 if (bIsChanged)
                 {
-                    MessageBoxResult dialogResult = MessageBox.Show("There are unsaved changes. Do you want to save them?", "Unsaved changes", System.Windows.MessageBoxButton.YesNoCancel);
+                    MessageBoxResult dialogResult = MessageBox.Show(
+#pragma warning disable CA1303 // Do not pass literals as localized parameters
+                        "There are unsaved changes. Do you want to save them?", "Unsaved changes", button: MessageBoxButton.YesNoCancel);
+#pragma warning restore CA1303 // Do not pass literals as localized parameters
                     if (dialogResult == MessageBoxResult.Yes)
                     {
                         SaveSettings(sender, e);
