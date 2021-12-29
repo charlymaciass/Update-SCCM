@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="RemoteUpdate by aima" Height="220" Width="790" Background="#FFCDC8C8" ResizeMode="CanMinimize" Icon="Pictures\RemoteUpdate.png" Closing="RemoteUpdate_Closing">
     <Grid>
-        <Label x:Name="LabelServername" Content="Servername" HorizontalAlignment="Left" Margin="47,0,0,0" VerticalAlignment="Top" ToolTip="Servername (no IP, otherwise Powershell Remoting won't work"/>
+        <Label x:Name="LabelServername" Content="Servidor" HorizontalAlignment="Left" Margin="47,0,0,0" VerticalAlignment="Top" ToolTip="Servername (no IP, otherwise Powershell Remoting won't work"/>
         <Label x:Name="LabelUptime" Content="Uptime" HorizontalAlignment="Left" Margin="168,-1,0,0" VerticalAlignment="Top" ToolTip="Shows the Uptime of the Server or that the connection failed (e.g. wrong credentials)"/>
         <Label x:Name="LabelAccept" Content="AcceptAll" HorizontalAlignment="Left" Margin="229,-1,0,0" VerticalAlignment="Top" ToolTip="Check if you AutoAccept all available updates"/>
         <Label x:Name="LabelDrivers" Content="Drivers" HorizontalAlignment="Left" Margin="296,-1,0,0" VerticalAlignment="Top" ToolTip="Check if you want to install available drivers too"/>

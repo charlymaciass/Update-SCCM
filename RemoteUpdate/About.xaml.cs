@@ -8,7 +8,9 @@ namespace RemoteUpdate
     /// </summary>
     public partial class About : Window
     {
-        string strVirtualAccountName = "VirtualAccount";
+#pragma warning disable IDE0052 // Remove unread private members
+        readonly string strVirtualAccountName = "VirtualAccount";
+#pragma warning restore IDE0052 // Remove unread private members
         public About(string strVATmp)
         {
             InitializeComponent();

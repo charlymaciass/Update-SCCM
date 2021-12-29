@@ -1,0 +1,8 @@
+2021.12.28_233359	INFO	Logfile created
+2021.12.28_233359	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdateSettings.xml not found
+2021.12.28_233359	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdateServer.xml not found
+2021.12.28_233402	INFO	No new version was found
+2021.12.28_233524	WARNING	Connection to LAPTOP is not working
+2021.12.28_233524	WARNING	Wrong credentials or access rights for LAPTOP
+2021.12.28_233608	WARNING	Connection to LAPTOP is not working
+2021.12.28_233608	WARNING	Wrong credentials or access rights for LAPTOP

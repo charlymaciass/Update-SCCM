@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RemoteUpdate.exe" size="428456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RemoteUpdate.exe" size="428968">
       <assemblyIdentity name="RemoteUpdate" version="0.5.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>IjpLRd4Vei7NGsjORNWenqBdn+N3K8m4Lhz3SA/Vvcc=</dsig:DigestValue>
+        <dsig:DigestValue>yeQ23IKc4ElJzUCbQOQw0xLqXBEklxCDbmWzy/816hs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
