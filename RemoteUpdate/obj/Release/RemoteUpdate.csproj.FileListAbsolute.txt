@@ -33,4 +33,3 @@ C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Release\RemoteUpdat
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Release\RemoteUpdate.csproj.CopyComplete
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Release\RemoteUpdate.exe
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Release\RemoteUpdate.pdb
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Release\RemoteUpdate.csproj.AssemblyReference.cache
