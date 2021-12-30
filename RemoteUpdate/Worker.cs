@@ -62,8 +62,10 @@ namespace RemoteUpdate
                 return;
             }
             Ping pingSender = new Ping();
-            PingOptions options = new PingOptions();
-            options.DontFragment = true;
+            PingOptions options = new PingOptions
+            {
+                DontFragment = true
+            };
             byte[] buffer = Encoding.ASCII.GetBytes("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
             PingReply reply = pingSender.Send(strTmpIP, 1000, buffer, options);
             pingSender.Dispose();

@@ -19,8 +19,10 @@ namespace RemoteUpdate
         private void Initialize()
         {
             _gifDecoder = new GifBitmapDecoder(new Uri(this.Source.ToString(Global.cultures)), BitmapCreateOptions.PreservePixelFormat, BitmapCacheOption.Default);
-            _animation = new Int32Animation(0, _gifDecoder.Frames.Count - 1, new Duration(new TimeSpan(0, 0, 0, _gifDecoder.Frames.Count / 10, (int)((_gifDecoder.Frames.Count / 10.0 - _gifDecoder.Frames.Count / 10) * 1000))));
-            _animation.RepeatBehavior = RepeatBehavior.Forever;
+            _animation = new Int32Animation(0, _gifDecoder.Frames.Count - 1, new Duration(new TimeSpan(0, 0, 0, _gifDecoder.Frames.Count / 10, (int)((_gifDecoder.Frames.Count / 10.0 - _gifDecoder.Frames.Count / 10) * 1000))))
+            {
+                RepeatBehavior = RepeatBehavior.Forever
+            };
             this.Source = _gifDecoder.Frames[0];
 
             _isInitialized = true;

@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using System.Resources;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows;
 
@@ -53,3 +54,5 @@ using System.Windows;
 [assembly: AssemblyVersion("0.5.1.0")]
 [assembly: AssemblyFileVersion("0.5.1.0")]
 [assembly: NeutralResourcesLanguage("en")]
+[assembly: InternalsVisibleTo("RemoteUpdate.Tests")]
+[assembly: InternalsVisibleTo("RemoteUpdate.Explorables")]

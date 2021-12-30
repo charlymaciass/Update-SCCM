@@ -1,5 +1,0 @@
-2021.12.30_083813	INFO	Logfile created
-2021.12.30_083813	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdateSettings.xml not found
-2021.12.30_083813	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdateServer.xml not found
-2021.12.30_083814	ERROR	An error occured while searching for a new version: Version string portion was too short or too long.
-2021.12.30_083818	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdateServer.xml not found

@@ -1,5 +1,0 @@
-2021.12.28_235159	INFO	Logfile created
-2021.12.28_235159	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdateSettings.xml not found
-2021.12.28_235159	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdateServer.xml not found
-2021.12.28_235202	INFO	No new version was found
-2021.12.28_235249	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdateServer.xml not found

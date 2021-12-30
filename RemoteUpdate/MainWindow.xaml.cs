@@ -760,7 +760,7 @@ namespace RemoteUpdate
 #pragma warning disable CA2000 // Dispose objects before losing scope
             System.Data.DataTable LoadTable = new System.Data.DataTable();
 #pragma warning restore CA2000 // Dispose objects before losing scope
-                              // Load Data from XML RemoteUpdateServer.xml
+            // Load Data from XML RemoteUpdateServer.xml
             bool bReadXML = Tasks.ReadXMLToTable(AppDomain.CurrentDomain.BaseDirectory + "RemoteUpdateServer.xml", LoadTable);
             // Check if XML read is true and if the rowscount is greater than 0 otherwise exit RemoteUpdate
             if (bReadXML == true && LoadTable.Rows.Count > 0)

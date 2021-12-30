@@ -8,7 +8,7 @@ namespace RemoteUpdate
     /// </summary>
     public partial class Credentials : Window
     {
-        int iLabelID;
+        readonly int iLabelID;
         public Credentials(int iTmpID)
         {
             InitializeComponent();

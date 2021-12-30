@@ -1,7 +1,8 @@
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdate.exe
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdate.exe.config
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdate.exe.manifest
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdate.application
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdate.exe
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdate.pdb
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\System.Management.Automation.dll
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\Microsoft.Management.Infrastructure.dll
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\System.Management.Automation.xml
@@ -32,4 +33,4 @@ C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Release\RemoteUpdat
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Release\RemoteUpdate.csproj.CopyComplete
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Release\RemoteUpdate.exe
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Release\RemoteUpdate.pdb
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdate.pdb
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Release\RemoteUpdate.csproj.AssemblyReference.cache
