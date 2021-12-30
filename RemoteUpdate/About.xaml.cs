@@ -21,7 +21,7 @@ namespace RemoteUpdate
         }
         private void ButtonDonate_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://www.yazaki-na.com/");
+            _ = Process.Start("https://www.yazaki-na.com/");
         }
         private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
         {

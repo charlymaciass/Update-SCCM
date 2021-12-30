@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RemoteUpdate"
         mc:Ignorable="d"
-        Title="RemoteUpdate by aima" Height="220" Width="790" Background="#FFCDC8C8" ResizeMode="CanMinimize" Icon="Pictures\RemoteUpdate.png" Closing="RemoteUpdate_Closing">
+        Title="RemoteUpdate by CHM" Height="220" Width="790" Background="#FFCDC8C8" ResizeMode="CanMinimize" Icon="Pictures\RemoteUpdate.png" Closing="RemoteUpdate_Closing">
     <Grid>
         <Label x:Name="LabelServername" Content="Servidor" HorizontalAlignment="Left" Margin="47,0,0,0" VerticalAlignment="Top" ToolTip="Servername (no IP, otherwise Powershell Remoting won't work"/>
         <Label x:Name="LabelUptime" Content="Uptime" HorizontalAlignment="Left" Margin="168,-1,0,0" VerticalAlignment="Top" ToolTip="Shows the Uptime of the Server or that the connection failed (e.g. wrong credentials)"/>
@@ -13,7 +13,7 @@
         <Label x:Name="LabelDrivers" Content="Drivers" HorizontalAlignment="Left" Margin="296,-1,0,0" VerticalAlignment="Top" ToolTip="Check if you want to install available drivers too"/>
         <Label x:Name="LabelReboot" Content="Reboot" HorizontalAlignment="Left" Margin="355,-1,0,0" VerticalAlignment="Top" ToolTip="Check if you want the Server to reboot after the update installation"/>
         <Label x:Name="LabelGUI" Content="GUI" HorizontalAlignment="Left" Margin="424,-1,0,0" VerticalAlignment="Top" ToolTip="Check if you want a seperate Powershell Window for the Server. Only if AcceptAll is Checked"/>
-        <Label x:Name="LabelMail" Content="Mail" HorizontalAlignment="Left" Margin="482,-1,0,0" VerticalAlignment="Top" ToolTip="Check if you want a mail sent to you after the upgrade (see Settings)"/>
+        <Label x:Name="LabelMail" Content="Verbose" HorizontalAlignment="Left" Margin="471,-1,0,0" VerticalAlignment="Top" ToolTip="Check if you want a mail sent to you after the upgrade (see Settings)"/>
         <Label x:Name="LabelEnabled" Content="Enabled" HorizontalAlignment="Left" Margin="720,-1,0,0" VerticalAlignment="Top" ToolTip="Check if you want this Server to install the updates when you click 'Start All'"/>
 
         <TextBox x:Name="TextBoxServer_0" HorizontalAlignment="Left" Margin="20,30,0,0" Text="" TextWrapping="NoWrap" VerticalAlignment="Top" Width="120" Height="18" Background="White" LostFocus="TextboxLostFocus"/>

@@ -1,3 +1,11 @@
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdate.exe.config
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdate.exe.manifest
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdate.application
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdate.exe
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdate.pdb
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\System.Management.Automation.dll
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\Microsoft.Management.Infrastructure.dll
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\System.Management.Automation.xml
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\About.g.cs
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\Credentials.g.cs
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\Fixit.g.cs
@@ -17,15 +25,6 @@ C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\Password.baml
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\PSScript.baml
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\Settings.baml
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.g.resources
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.pdb
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdate.exe.config
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdate.exe.manifest
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdate.application
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdate.exe
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdate.pdb
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\System.Management.Automation.dll
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\Microsoft.Management.Infrastructure.dll
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\System.Management.Automation.xml
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.Properties.Resources.resources
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.csproj.GenerateResource.cache
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.csproj.CoreCompileInputs.cache
@@ -33,3 +32,4 @@ C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.application
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.csproj.CopyComplete
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.exe
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.pdb
