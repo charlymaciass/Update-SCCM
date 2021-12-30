@@ -33,3 +33,5 @@ C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.csproj.CopyComplete
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.exe
 C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.pdb
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.csproj.AssemblyReference.cache
+C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\RemoteUpdate.csproj.SuggestedBindingRedirects.cache

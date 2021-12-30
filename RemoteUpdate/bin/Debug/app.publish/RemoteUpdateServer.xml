@@ -41,40 +41,7 @@
     <Reboot>True</Reboot>
     <GUI>True</GUI>
     <Mail>False</Mail>
-    <Username />
-    <Password />
-    <Enabled>True</Enabled>
-  </RemoteUpdateServer>
-  <RemoteUpdateServer>
-    <Server>cant01msg002</Server>
-    <Accept>True</Accept>
-    <Drivers>True</Drivers>
-    <Reboot>True</Reboot>
-    <GUI>True</GUI>
-    <Mail>False</Mail>
-    <Username />
-    <Password />
-    <Enabled>True</Enabled>
-  </RemoteUpdateServer>
-  <RemoteUpdateServer>
-    <Server>cant01unc003</Server>
-    <Accept>True</Accept>
-    <Drivers>True</Drivers>
-    <Reboot>True</Reboot>
-    <GUI>True</GUI>
-    <Mail>False</Mail>
-    <Username />
-    <Password />
-    <Enabled>True</Enabled>
-  </RemoteUpdateServer>
-  <RemoteUpdateServer>
-    <Server>yse-a01</Server>
-    <Accept>True</Accept>
-    <Drivers>True</Drivers>
-    <Reboot>True</Reboot>
-    <GUI>True</GUI>
-    <Mail>False</Mail>
-    <Username />
+    <Username>na\adm_90016415</Username>
     <Password />
     <Enabled>True</Enabled>
   </RemoteUpdateServer>

@@ -1,0 +1,5 @@
+2021.12.30_143028	INFO	Logfile created
+2021.12.30_143028	INFO	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateSettings.xml successfully loaded
+2021.12.30_143028	INFO	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateServer.xml successfully loaded
+2021.12.30_143029	INFO	No new version was found
+2021.12.30_143030	INFO	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateServer.xml successfully loaded
