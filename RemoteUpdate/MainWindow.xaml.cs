@@ -496,17 +496,17 @@ namespace RemoteUpdate
             };
             AskCred.ShowDialog();
         }
-        private bool GetPassword(bool bEncrypt, out string strCryptPassword)
+        private bool GetPassword(bool bEncrypt, out string strEncryptionPassword)
         {
             Password AskPassword = new Password(bEncrypt);
             if ((bool)AskPassword.ShowDialog())
             {
-                strCryptPassword = AskPassword.PasswordBoxPassword.Password.ToString(Global.cultures);
+                strEncryptionPassword = AskPassword.PasswordBoxPassword.Password.ToString(Global.cultures);
                 return true;
             }
             else
             {
-                strCryptPassword = "";
+                strEncryptionPassword = "";
                 return false;
             }
         }
@@ -837,9 +837,7 @@ namespace RemoteUpdate
                 if (bIsChanged)
                 {
                     MessageBoxResult dialogResult = MessageBox.Show(
-#pragma warning disable CA1303 // Do not pass literals as localized parameters
                         "There are unsaved changes. Do you want to save them?", "Unsaved changes", button: MessageBoxButton.YesNoCancel);
-#pragma warning restore CA1303 // Do not pass literals as localized parameters
                     if (dialogResult == MessageBoxResult.Yes)
                     {
                         SaveSettings(sender, e);
@@ -853,6 +851,7 @@ namespace RemoteUpdate
             }
             else
             {   // close RemoteUpdate
+                SaveSettings(sender, e);
                 return;
             }
         }

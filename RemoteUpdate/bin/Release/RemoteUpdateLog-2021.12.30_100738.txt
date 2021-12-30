@@ -1,5 +1,0 @@
-2021.12.30_100739	INFO	Logfile created
-2021.12.30_100739	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdateSettings.xml not found
-2021.12.30_100739	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdateServer.xml not found
-2021.12.30_100740	INFO	No new version was found
-2021.12.30_100758	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Release\RemoteUpdateServer.xml not found

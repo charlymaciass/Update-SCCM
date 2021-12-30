@@ -58,6 +58,12 @@ namespace RemoteUpdate
         }
         public static string Decrypt(string cipherText, string strServername)
         {
+            return NewMethod(ref cipherText, strServername);
+
+        }
+
+        private static string NewMethod(ref string cipherText, string strServername)
+        {
             try
             {
                 string EncryptionKey = Global.strDecryptionPassword;
@@ -87,15 +93,13 @@ namespace RemoteUpdate
                 }
                 return cipherText;
             }
-#pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception ee)
-#pragma warning restore CA1031 // Do not catch general exception types
             {
                 WriteLogFile(2, "Decrypt error for server " + strServername.ToUpper(Global.cultures) + ": " + ee.Message);
                 return "";
             }
-
         }
+
         public static bool CheckPSConnection(int line)
         {
             var sessionState = InitialSessionState.CreateDefault();

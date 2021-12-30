@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="RemoteUpdateServer" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="RemoteUpdateServer">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Server" type="xs:string" minOccurs="0" />
+                <xs:element name="Accept" type="xs:string" minOccurs="0" />
+                <xs:element name="Drivers" type="xs:string" minOccurs="0" />
+                <xs:element name="Reboot" type="xs:string" minOccurs="0" />
+                <xs:element name="GUI" type="xs:string" minOccurs="0" />
+                <xs:element name="Mail" type="xs:string" minOccurs="0" />
+                <xs:element name="Username" type="xs:string" minOccurs="0" />
+                <xs:element name="Password" type="xs:string" minOccurs="0" />
+                <xs:element name="Enabled" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <RemoteUpdateServer>
+    <Server>ws-1hb7jl2</Server>
+    <Accept>True</Accept>
+    <Drivers>True</Drivers>
+    <Reboot>True</Reboot>
+    <GUI>True</GUI>
+    <Mail>False</Mail>
+    <Username>na\adm_90016415</Username>
+    <Password />
+    <Enabled>True</Enabled>
+  </RemoteUpdateServer>
+  <RemoteUpdateServer>
+    <Server>ws-1hb8jl2</Server>
+    <Accept>True</Accept>
+    <Drivers>True</Drivers>
+    <Reboot>True</Reboot>
+    <GUI>True</GUI>
+    <Mail>False</Mail>
+    <Username />
+    <Password />
+    <Enabled>True</Enabled>
+  </RemoteUpdateServer>
+  <RemoteUpdateServer>
+    <Server>cant01msg002</Server>
+    <Accept>True</Accept>
+    <Drivers>True</Drivers>
+    <Reboot>True</Reboot>
+    <GUI>True</GUI>
+    <Mail>False</Mail>
+    <Username />
+    <Password />
+    <Enabled>True</Enabled>
+  </RemoteUpdateServer>
+  <RemoteUpdateServer>
+    <Server>cant01unc003</Server>
+    <Accept>True</Accept>
+    <Drivers>True</Drivers>
+    <Reboot>True</Reboot>
+    <GUI>True</GUI>
+    <Mail>False</Mail>
+    <Username />
+    <Password />
+    <Enabled>True</Enabled>
+  </RemoteUpdateServer>
+  <RemoteUpdateServer>
+    <Server>yse-a01</Server>
+    <Accept>True</Accept>
+    <Drivers>True</Drivers>
+    <Reboot>True</Reboot>
+    <GUI>True</GUI>
+    <Mail>False</Mail>
+    <Username />
+    <Password />
+    <Enabled>True</Enabled>
+  </RemoteUpdateServer>
+</NewDataSet>

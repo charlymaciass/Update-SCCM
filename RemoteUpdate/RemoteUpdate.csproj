@@ -111,6 +111,7 @@
     </Compile>
     <Compile Include="GifImage.cs" />
     <Compile Include="Global.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Password.xaml.cs">
       <DependentUpon>Password.xaml</DependentUpon>
     </Compile>
