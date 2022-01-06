@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\
+C:\Users\90016415\Documents\GitHub\Update-SCCM\RemoteUpdate\obj\Debug\
 RemoteUpdate
 none
 false
 DEBUG;TRACE
-C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\App.xaml
-7423323844
+C:\Users\90016415\Documents\GitHub\Update-SCCM\RemoteUpdate\App.xaml
+7-1629904096
 
-17-714881369
-15388303424
+17-1322060455
+151655123492
 About.xaml;Credentials.xaml;Fixit.xaml;MainWindow.xaml;Password.xaml;PSScript.xaml;Settings.xaml;
 
-True
+False
 

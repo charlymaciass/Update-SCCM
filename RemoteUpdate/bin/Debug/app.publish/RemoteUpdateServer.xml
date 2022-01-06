@@ -24,25 +24,36 @@
     </xs:element>
   </xs:schema>
   <RemoteUpdateServer>
-    <Server>ws-1hb7jl2</Server>
+    <Server>lcar01app002</Server>
     <Accept>True</Accept>
-    <Drivers>True</Drivers>
+    <Drivers>False</Drivers>
     <Reboot>True</Reboot>
     <GUI>True</GUI>
     <Mail>False</Mail>
-    <Username>na\adm_90016415</Username>
+    <Username>na\adm_10163318</Username>
     <Password />
-    <Enabled>True</Enabled>
+    <Enabled>False</Enabled>
   </RemoteUpdateServer>
   <RemoteUpdateServer>
-    <Server>ws-1hb8jl2</Server>
+    <Server>MONT00TST028</Server>
     <Accept>True</Accept>
-    <Drivers>True</Drivers>
+    <Drivers>False</Drivers>
     <Reboot>True</Reboot>
     <GUI>True</GUI>
     <Mail>False</Mail>
-    <Username>na\adm_90016415</Username>
+    <Username />
     <Password />
-    <Enabled>True</Enabled>
+    <Enabled>False</Enabled>
+  </RemoteUpdateServer>
+  <RemoteUpdateServer>
+    <Server>Cant01mgt050</Server>
+    <Accept>True</Accept>
+    <Drivers>False</Drivers>
+    <Reboot>False</Reboot>
+    <GUI>True</GUI>
+    <Mail>False</Mail>
+    <Username />
+    <Password />
+    <Enabled>False</Enabled>
   </RemoteUpdateServer>
 </NewDataSet>

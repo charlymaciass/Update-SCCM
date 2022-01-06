@@ -1,0 +1,6 @@
+2021.12.30_150412	INFO	Logfile created
+2021.12.30_150413	WARNING	C:\Users\90016415\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdateSettings.xml not found
+2021.12.30_150413	WARNING	C:\Users\90016415\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\RemoteUpdateServer.xml not found
+2021.12.30_150420	INFO	No new version was found
+2021.12.30_150653	INFO	Connection to WS-1HB7JL2 works
+2021.12.30_150654	INFO	Update started on Server WS-1HB7JL2

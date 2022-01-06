@@ -61,10 +61,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>25B50BEBBD3E4E8748CD42009B9D49DF6A2938AE</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>B421DF62613E06AF3C09395333E0F837FA417BE6</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>RemoteUpdate_3_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>RemoteUpdate_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -188,6 +188,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="RemoteUpdate_Key.pfx" />
+    <None Include="RemoteUpdate_Yazaki.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Pictures\RemoteUpdate.png" />

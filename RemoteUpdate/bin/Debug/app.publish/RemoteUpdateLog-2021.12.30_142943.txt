@@ -1,7 +1,0 @@
-2021.12.30_142943	INFO	Logfile created
-2021.12.30_142943	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateSettings.xml not found
-2021.12.30_142943	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateServer.xml not found
-2021.12.30_142944	INFO	No new version was found
-2021.12.30_143016	WARNING	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateServer.xml not found
-2021.12.30_143017	INFO	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateServer.xml successfully saved
-2021.12.30_143017	INFO	C:\Users\charl\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateSettings.xml successfully saved

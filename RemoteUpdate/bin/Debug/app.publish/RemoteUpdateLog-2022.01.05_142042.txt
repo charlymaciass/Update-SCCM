@@ -1,0 +1,24 @@
+2022.01.05_142042	INFO	Logfile created
+2022.01.05_142043	INFO	\\WS-1HB7JL2\app.publish\RemoteUpdateSettings.xml successfully loaded
+2022.01.05_142043	INFO	\\WS-1HB7JL2\app.publish\RemoteUpdateServer.xml successfully loaded
+2022.01.05_142046	INFO	No new version was found
+2022.01.05_142113	WARNING	Connection to LCAR01APP002 is not working
+2022.01.05_142128	WARNING	Wrong credentials or access rights for LCAR01APP002
+2022.01.05_142251	WARNING	Connection to LCAR01APP002 is not working
+2022.01.05_142306	WARNING	Wrong credentials or access rights for LCAR01APP002
+2022.01.05_142633	INFO	Connection to LCAR01APP002 works
+2022.01.05_142633	INFO	Update started on Server LCAR01APP002
+2022.01.05_142959	INFO	UAC Elevation successfull
+2022.01.05_143014	INFO	Connection to LCAR01APP002 works
+2022.01.05_143015	INFO	Update started on Server LCAR01APP002
+2022.01.05_143046	INFO	Connection to LCAR01APP002 works
+2022.01.05_143046	INFO	Update started on Server LCAR01APP002
+2022.01.05_143500	INFO	Connection to MONT00TST028 works
+2022.01.05_143500	INFO	Update started on Server MONT00TST028
+2022.01.05_143826	INFO	Connection to MONT00TST028 works
+2022.01.05_143826	INFO	Update started on Server MONT00TST028
+2022.01.05_143907	INFO	Connection to MONT00TST028 works
+2022.01.05_143908	INFO	Update started on Server MONT00TST028
+2022.01.05_143945	INFO	Connection to MONT00TST028 works
+2022.01.05_143945	INFO	Update started on Server MONT00TST028
+2022.01.06_070043	INFO	\\WS-1HB7JL2\app.publish\RemoteUpdateServer.xml successfully loaded

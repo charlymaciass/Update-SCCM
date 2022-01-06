@@ -1,0 +1,9 @@
+2022.01.05_135824	INFO	Logfile created
+2022.01.05_135824	WARNING	C:\Users\90016415\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateSettings.xml not found
+2022.01.05_135824	WARNING	C:\Users\90016415\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateServer.xml not found
+2022.01.05_135827	INFO	No new version was found
+2022.01.05_140130	WARNING	Connection to LCAR01APP002 is not working
+2022.01.05_140148	WARNING	Wrong credentials or access rights for LCAR01APP002
+2022.01.05_141217	WARNING	C:\Users\90016415\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateServer.xml not found
+2022.01.05_141219	INFO	C:\Users\90016415\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateServer.xml successfully saved
+2022.01.05_141219	INFO	C:\Users\90016415\Documents\GitHub\Update-SCCM\RemoteUpdate\bin\Debug\app.publish\RemoteUpdateSettings.xml successfully saved
